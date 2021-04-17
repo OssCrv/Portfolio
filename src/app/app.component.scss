@@ -1,0 +1,18 @@
+.container{
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+app-greeting {
+  background: red;
+  width: 80%;
+}
+
+app-skills {
+  background: blueviolet;
+  width: 80%;
+}
