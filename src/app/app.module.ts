@@ -8,6 +8,7 @@ import { GreetingComponent } from './components/greeting/greeting.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SoftwareSkillComponent } from "./components/skills/software-skill/software-skill.component";
 import { SocialMediaComponent } from './components/social-media/social-media.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SocialMediaComponent } from './components/social-media/social-media.com
     GreetingComponent,
     SkillsComponent,
     SoftwareSkillComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

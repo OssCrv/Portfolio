@@ -38,7 +38,7 @@ export class SoftwareSkillComponent implements OnInit {
         fontAwesomeClassname: "fas fa-power-off"
       },
       {
-        skillName: "Diseño y despliegue de bases de datos",
+        skillName: "Bases de datos",
         fontAwesomeClassname: "fas fa-database"
       },
       {

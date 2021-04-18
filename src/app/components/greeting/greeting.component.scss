@@ -46,7 +46,7 @@
 }
 
 .greeting-image-div > img {
-  max-width: auto;
+  max-width: 100%;
   height: 100%;
 }
 .wave-emoji {
@@ -64,7 +64,7 @@ p {
   margin-inline-end: 0px;
 }
 .subTitle {
-  color: #868e96;
+  color: color.$text;
 }
 @keyframes wave {
   0% {

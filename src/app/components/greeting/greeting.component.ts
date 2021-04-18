@@ -8,8 +8,8 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 })
 export class GreetingComponent implements OnInit {
   greeting= {
-    username: "Ossman O. C.",
-    title: `¡Hola! Soy Ossman Carvajal`,
+    username: "Ossman O C",
+    title: `¡Hola! me llamo Ossman Carvajal`,
     subTitle: "Un desarrollador con conocimiento en construcción de bases de datos relacionales y aplicaciones usando Java Spring Boot y Angular",
     resumeLink: "https://bit.ly/CV_OssCrv"
   }

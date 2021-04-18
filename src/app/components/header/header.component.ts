@@ -46,10 +46,10 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
   greeting= {
-    username: "Ossman O. C.",
-    title: "Hi all, I'm Ossman",
-    subTitle: "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
-    resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+    username: "Ossman O C",
+    title: `¡Hola! me llamo Ossman Carvajal`,
+    subTitle: "Un desarrollador con conocimiento en construcción de bases de datos relacionales y aplicaciones usando Java Spring Boot y Angular",
+    resumeLink: "https://bit.ly/CV_OssCrv"
   }
 
   ngOnInit(): void {

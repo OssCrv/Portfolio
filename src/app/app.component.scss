@@ -1,18 +1,26 @@
-.container{
-  background: yellow;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .container{
+    background: rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  app-header {
+    box-shadow: inset 2px 0px 4px rgba(0, 0, 0, 0.25);
+  }
 
-app-greeting {
-  background: red;
-  width: 80%;
-}
+  app-greeting {
+    // background: red;
+    width: 80%;
+  }
 
-app-skills {
-  background: blueviolet;
-  width: 80%;
-}
+  app-skills {
+    // background: blueviolet;
+    width: 80%;
+  }
+
+  app-education {
+    width: 80%;
+    // background-color: brown;
+  }

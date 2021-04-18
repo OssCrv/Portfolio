@@ -1,5 +1,8 @@
+@use '../color.scss';
+
 .subTitle {
-  color: #868e96;
+  font-size: 20px;
+  color: color.$text;
 }
 .skills-main-div {
   display: flex;
@@ -14,13 +17,17 @@
 }
 
 .skills-image-div > img {
-  max-width: auto;
+  max-width: 100%;
   height: 100%;
 }
 
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
+}
+
+.subTitle {
+  padding-top: 5px;
 }
 
 /* Media Query */
