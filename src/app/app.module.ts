@@ -9,6 +9,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { SoftwareSkillComponent } from "./components/skills/software-skill/software-skill.component";
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { EducationComponent } from './components/education/education.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ExperienceCardComponent } from './components/experience/experience-card/experience-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { EducationComponent } from './components/education/education.component';
     SkillsComponent,
     SoftwareSkillComponent,
     SocialMediaComponent,
-    EducationComponent
+    EducationComponent,
+    ExperienceComponent,
+    ExperienceCardComponent
   ],
   imports: [
     BrowserModule,
